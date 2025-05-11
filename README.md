@@ -1,6 +1,6 @@
 # Multi-Tiered Memory Architecture Orchestration Agent
 
-> **Note:** This project is currently in proof-of-concept stage and will be made public once core functionality is validated.
+> **Note:** This project is currently in pre-alpha stage. It's publicly available for collaboration, but expect significant changes as the core functionality is developed and refined.
 
 ## Overview
 
@@ -116,7 +116,7 @@ python src/main.py
 
 ## Contributing
 
-During the proof-of-concept stage, this repository is private. After validation, we will open it to contributions from the community.
+As this project is in pre-alpha stage, contributions are welcome. Please feel free to open issues or submit pull requests.
 
 ## License
 
