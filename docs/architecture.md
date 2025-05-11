@@ -1,5 +1,7 @@
 # Multi-Tiered Memory Architecture: System Architecture
 
+> **Note:** This architecture document describes the intended design for this pre-alpha project. The implementation is ongoing and some components may not be fully functional yet.
+
 ## 1. Overview
 
 The Multi-Tiered Memory Architecture (MTMA) is designed to provide AI systems with a human-like memory architecture, creating a unified persistence layer across multiple AI contexts. This document outlines the high-level architecture of the system, its components, and their interactions.
