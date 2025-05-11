@@ -1,5 +1,7 @@
 # Multi-Tiered Memory Architecture API Reference
 
+> **Note:** This API documentation describes the intended interfaces for this pre-alpha project. The implementation is still in progress, and not all endpoints may be fully functional yet.
+
 ## 1. Overview
 
 The Multi-Tiered Memory Architecture (MTMA) exposes a RESTful API for LLM contexts to interact with the memory system. This document provides a detailed reference for all available endpoints, request/response formats, and usage examples.
