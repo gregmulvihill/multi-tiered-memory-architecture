@@ -6,6 +6,31 @@
 
 The Multi-Tiered Memory Architecture (MTMA) Orchestration Agent is a sophisticated system designed to provide AI systems with a human-like memory architecture. It creates a unified persistence layer across multiple AI contexts, enabling continuous learning, context preservation, and coordinated multi-agent behavior.
 
+MTMA serves as the foundation layer in a larger AI ecosystem:
+- It provides memory services to [Automated-Dev-Agents (ADCA)](https://github.com/gregmulvihill/automated-dev-agents)
+- It supports the strategic goals of [Orchestrate-AI](https://github.com/gregmulvihill/orchestrate-ai)
+
+## Ecosystem Architecture
+
+MTMA operates as the foundation layer in a three-tier architecture:
+
+```
+┌─────────────────────────────────────────────────┐
+│ ORCHESTRATE-AI                                  │
+│ (Strategic Orchestration & Business Logic)      │
+└────────────────────────┬────────────────────────┘
+                         │
+┌────────────────────────▼────────────────────────┐
+│ AUTOMATED-DEV-AGENTS                            │
+│ (Tactical Task Execution & Agent Management)    │
+└────────────────────────┬────────────────────────┘
+                         │
+┌────────────────────────▼────────────────────────┐
+│ MULTI-TIERED MEMORY ARCHITECTURE (THIS REPO)    │
+│ (Persistence, Context Preservation, Knowledge)  │
+└─────────────────────────────────────────────────┘
+```
+
 ## Key Concepts
 
 - **Short-Term Memory**: High-performance, rapidly accessible memory with automatic decay
@@ -43,6 +68,22 @@ MTMA implements a multi-layered approach to memory management:
                             │ └─────────────────────────┘ │
                             └─────────────────────────────┘
 ```
+
+## Integration Points
+
+### Integration with ADCA
+MTMA provides memory services to the Automated-Dev-Agents system:
+- Short-term memory for task context and immediate needs
+- Long-term memory for preserving code, tests, and documentation
+- World state for maintaining shared context across agents
+- Memory search for finding relevant information for tasks
+
+### Integration with Orchestrate-AI
+MTMA supports Orchestrate-AI's strategic capabilities:
+- Storing long-term knowledge for strategic decisions
+- Maintaining historical data for analytics and improvement
+- Providing system state information for monitoring
+- Supporting persistent workflows and multi-session continuity
 
 ## Features
 
@@ -86,7 +127,7 @@ cd multi-tiered-memory-architecture
 2. Set up the environment
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  # On Windows: venv\\Scripts\\activate
 pip install -r requirements.txt
 ```
 
@@ -113,6 +154,11 @@ python src/main.py
 3. **Intelligence Phase**: Automatic memory policies and enrichment
 4. **Optimization Phase**: Tiered storage and advanced retrieval
 5. **Self-improvement Phase**: Self-optimizing memory operations
+
+## Related Projects
+
+- [Orchestrate-AI](https://github.com/gregmulvihill/orchestrate-ai) - Strategic orchestration system for AI-driven development
+- [Automated-Dev-Agents (ADCA)](https://github.com/gregmulvihill/automated-dev-agents) - Specialized agent framework for automating development tasks
 
 ## Contributing
 
