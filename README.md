@@ -4,6 +4,7 @@
 [![Status](https://img.shields.io/badge/Status-Pre--Alpha-orange)](https://github.com/gregmulvihill/multi-tiered-memory-architecture)
 [![Foundation Layer](https://img.shields.io/badge/Type-Foundation%20Layer-green)](https://github.com/gregmulvihill/multi-tiered-memory-architecture)
 [![License](https://img.shields.io/github/license/gregmulvihill/multi-tiered-memory-architecture)](LICENSE)
+[![Protected Branch](https://img.shields.io/badge/Main%20Branch-Protected-informational)](https://github.com/gregmulvihill/multi-tiered-memory-architecture)
 
 > **⚠️ PRE-ALPHA WARNING ⚠️**  
 > This project is in pre-alpha stage. The content has been created conceptually but has not been tested. Proceed with caution as significant changes may occur before the first stable release.
@@ -150,6 +151,21 @@ docker-compose up -d
 python src/main.py
 ```
 
+## Development
+
+### Branch Protection
+
+The main branch is protected and requires pull requests with at least one approval before merging. This ensures code quality and proper review of all changes.
+
+### Development Workflow
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request for review
+5. Address any feedback
+6. Your changes will be merged after approval
+
 ## Development Roadmap
 
 1. **Foundation Phase**: Basic Redis-based short-term memory implementation
@@ -167,6 +183,7 @@ As this project is in pre-alpha stage, contributions are welcome. Please feel fr
 - [Orchestrate-AI](https://github.com/gregmulvihill/orchestrate-ai) - The strategic orchestration layer that leverages MTMA for memory persistence
 - [Automated-Dev-Agents (ADCA)](https://github.com/gregmulvihill/automated-dev-agents) - The tactical execution layer that uses MTMA for agent memory and knowledge sharing
 - [MCP Manager](https://github.com/gregmulvihill/mcp-manager) - Tool for managing MCP servers in the ecosystem
+- [Claude Voice MCP](https://github.com/gregmulvihill/claude-voice-mcp) - MCP server for voice integration with Claude Desktop
 
 ## License
 
